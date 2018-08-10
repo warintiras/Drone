@@ -27,4 +27,4 @@ Route::get('/about', 'PagesController@about');
 
 Route::get('/services', 'PagesController@services');
 
-Route::resource('posts', 'PagesController');
+Route::resource('posts', 'PostsController'); //Map routes to functions.
